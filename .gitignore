@@ -1,0 +1,7 @@
+/clases/fpdf/
+/js/popper.min.js
+.DS_Store
+tmp/*
+varios/
+pdf/*
+includes/conf.php

@@ -1,0 +1,22 @@
+[01-Mar-2020 23:00:06 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found in /home/biosf973/public_html/calculadora/admin/clases/Control.php:1260
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/admin/clases/Control.php(451): Control->hacerExcel('Lerma Inn', '2020-03-01', Array, Array)
+#1 /home/biosf973/public_html/calculadora/admin/index.php(28): Control->evaluarPost(Array, Array)
+#2 {main}
+  thrown in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 1260
+[01-Mar-2020 23:01:12 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found in /home/biosf973/public_html/calculadora/admin/clases/Control.php:1260
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/admin/clases/Control.php(451): Control->hacerExcel('Lerma Inn', '2020-03-01', Array, Array)
+#1 /home/biosf973/public_html/calculadora/admin/index.php(28): Control->evaluarPost(Array, Array)
+#2 {main}
+  thrown in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 1260
+[01-Mar-2020 23:01:34 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 115
+[01-Mar-2020 23:01:34 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 124
+[01-Mar-2020 23:01:34 America/Mexico_City] PHP Notice:  Undefined offset: 0 in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 537
+[01-Mar-2020 23:01:34 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 537
+[01-Mar-2020 23:01:55 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found in /home/biosf973/public_html/calculadora/admin/clases/Control.php:1260
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/admin/clases/Control.php(451): Control->hacerExcel('Lerma Inn', '2020-03-01', Array, Array)
+#1 /home/biosf973/public_html/calculadora/admin/index.php(28): Control->evaluarPost(Array, Array)
+#2 {main}
+  thrown in /home/biosf973/public_html/calculadora/admin/clases/Control.php on line 1260

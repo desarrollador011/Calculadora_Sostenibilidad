@@ -1,0 +1,107 @@
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  include_once(includes/conf.php): failed to open stream: No such file or directory in /home/biosf973/public_html/calculadora/index.php on line 9
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  include_once(): Failed opening 'includes/conf.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/biosf973/public_html/calculadora/index.php on line 9
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/biosf973/public_html/calculadora/index.php:9) in /home/biosf973/public_html/calculadora/index.php on line 13
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/biosf973/public_html/calculadora/index.php:9) in /home/biosf973/public_html/calculadora/index.php on line 13
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'SERVIDOR' (-2) in /home/biosf973/public_html/calculadora/clases/Data.php on line 35
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/biosf973/public_html/calculadora/clases/Data.php on line 36
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/biosf973/public_html/calculadora/clases/Data.php on line 168
+[12-Dec-2019 21:16:02 America/Monterrey] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/biosf973/public_html/calculadora/clases/Data.php:169
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/clases/Control.php(127): Data->hacerArregloTamanosHotel()
+#1 /home/biosf973/public_html/calculadora/clases/Control.php(93): Control->hacerArreglosIniciales()
+#2 /home/biosf973/public_html/calculadora/index.php(26): Control->__construct('SERVIDOR', 'SERVIDOR_USUARI...', 'SERVIDOR_CLAVE', 'SERVIDOR_DB')
+#3 {main}
+  thrown in /home/biosf973/public_html/calculadora/clases/Data.php on line 169
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  include_once(includes/conf.php): failed to open stream: No such file or directory in /home/biosf973/public_html/calculadora/index.php on line 9
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  include_once(): Failed opening 'includes/conf.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/biosf973/public_html/calculadora/index.php on line 9
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/biosf973/public_html/calculadora/index.php:9) in /home/biosf973/public_html/calculadora/index.php on line 13
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/biosf973/public_html/calculadora/index.php:9) in /home/biosf973/public_html/calculadora/index.php on line 13
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'SERVIDOR' (-2) in /home/biosf973/public_html/calculadora/clases/Data.php on line 35
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/biosf973/public_html/calculadora/clases/Data.php on line 36
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/biosf973/public_html/calculadora/clases/Data.php on line 168
+[12-Dec-2019 21:21:20 America/Monterrey] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/biosf973/public_html/calculadora/clases/Data.php:169
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/clases/Control.php(127): Data->hacerArregloTamanosHotel()
+#1 /home/biosf973/public_html/calculadora/clases/Control.php(93): Control->hacerArreglosIniciales()
+#2 /home/biosf973/public_html/calculadora/index.php(23): Control->__construct('SERVIDOR', 'SERVIDOR_USUARI...', 'SERVIDOR_CLAVE', 'SERVIDOR_DB')
+#3 {main}
+  thrown in /home/biosf973/public_html/calculadora/clases/Data.php on line 169
+[13-Dec-2019 01:05:13 America/Mexico_City] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biosf973/public_html/calculadora/clases/Data.php on line 35
+[13-Dec-2019 01:05:13 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/biosf973/public_html/calculadora/clases/Data.php on line 36
+[13-Dec-2019 01:05:13 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/biosf973/public_html/calculadora/clases/Data.php on line 168
+[13-Dec-2019 01:05:13 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/biosf973/public_html/calculadora/clases/Data.php:169
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/clases/Control.php(127): Data->hacerArregloTamanosHotel()
+#1 /home/biosf973/public_html/calculadora/clases/Control.php(93): Control->hacerArreglosIniciales()
+#2 /home/biosf973/public_html/calculadora/index.php(23): Control->__construct('localhost', 'root', '', '')
+#3 {main}
+  thrown in /home/biosf973/public_html/calculadora/clases/Data.php on line 169
+[13-Dec-2019 05:35:50 America/Mexico_City] PHP Notice:  Undefined index: tipo in /home/biosf973/public_html/calculadora/clases/Control.php on line 610
+[13-Dec-2019 05:35:50 America/Mexico_City] PHP Notice:  Undefined index: tipo in /home/biosf973/public_html/calculadora/clases/Control.php on line 610
+[13-Dec-2019 07:19:50 America/Mexico_City] PHP Notice:  Undefined index: tipo in /home/biosf973/public_html/calculadora/clases/Control.php on line 610
+[13-Dec-2019 07:19:50 America/Mexico_City] PHP Notice:  Undefined index: tipo in /home/biosf973/public_html/calculadora/clases/Control.php on line 610
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: seccionPaternariato in /home/biosf973/public_html/calculadora/clases/Control.php on line 1359
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: tema_Trabajo_digno_e_inclusion in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 274
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: tema_Genero in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 275
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: tema_Proteccion_del_patrimonio_cultural_tangible_e_intangible in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 385
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: tema_Fomentar_intercambios_culturales in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 386
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: tema_Empleo_general in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 508
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Notice:  Undefined index: tema_Planeacion_y_diseno_del_destino_ in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 625
+[19-Jan-2020 22:12:04 America/Mexico_City] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/biosf973/public_html/calculadora/clases/Control.php:1359) in /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php(1012): FPDF->_checkoutput()
+#2 /home/biosf973/public_html/calculadora/clases/Control.php(1381): FPDF->Output('D', 'pdf/ensayo.pdf', true)
+#3 /home/biosf973/public_html/calculadora/clases/Control.php(683): Control->hacerPdfReporte()
+#4 /home/biosf973/public_html/calculadora/index.php(37): Control->evaluarPost(Array, Array)
+#5 {main}
+  thrown in /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php on line 271
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: tema_Planeacion_y_diseno_del_destino in /home/biosf973/public_html/calculadora/clases/Control.php on line 1413
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: tema_Planeacion_y_diseno_del_destino in /home/biosf973/public_html/calculadora/clases/Control.php on line 1413
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: seccionPaternariato in /home/biosf973/public_html/calculadora/clases/Control.php on line 1359
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: tema_Trabajo_digno_e_inclusion in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 274
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: tema_Genero in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 275
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: tema_Proteccion_del_patrimonio_cultural_tangible_e_intangible in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 385
+[19-Jan-2020 22:13:41 America/Mexico_City] PHP Notice:  Undefined index: tema_Fomentar_intercambios_culturales in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 386
+[19-Jan-2020 22:13:42 America/Mexico_City] PHP Notice:  Undefined index: tema_Empleo_general in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 508
+[19-Jan-2020 22:13:42 America/Mexico_City] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/biosf973/public_html/calculadora/clases/Control.php:1413) in /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php(1012): FPDF->_checkoutput()
+#2 /home/biosf973/public_html/calculadora/clases/Control.php(1381): FPDF->Output('D', 'pdf/ensayo.pdf', true)
+#3 /home/biosf973/public_html/calculadora/clases/Control.php(683): Control->hacerPdfReporte()
+#4 /home/biosf973/public_html/calculadora/index.php(37): Control->evaluarPost(Array, Array)
+#5 {main}
+  thrown in /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php on line 271
+[19-Jan-2020 22:17:05 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:06 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:08 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:08 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:10 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:16 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:25 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/biosf973/public_html/calculadora/clases/Control.php on line 1209
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Planeacion_y_diseno_del_destino in /home/biosf973/public_html/calculadora/clases/Control.php on line 1414
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Planeacion_y_diseno_del_destino in /home/biosf973/public_html/calculadora/clases/Control.php on line 1414
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: seccionPaternariato in /home/biosf973/public_html/calculadora/clases/Control.php on line 1360
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Trabajo_digno_e_inclusion in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 274
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Genero in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 275
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Proteccion_del_patrimonio_cultural_tangible_e_intangible in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 385
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Fomentar_intercambios_culturales in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 386
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Notice:  Undefined index: tema_Empleo_general in /home/biosf973/public_html/calculadora/clases/PdfResultados.php on line 508
+[19-Jan-2020 22:17:48 America/Mexico_City] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/biosf973/public_html/calculadora/clases/Control.php:1414) in /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php(1012): FPDF->_checkoutput()
+#2 /home/biosf973/public_html/calculadora/clases/Control.php(1382): FPDF->Output('D', 'pdf/ensayo.pdf', true)
+#3 /home/biosf973/public_html/calculadora/clases/Control.php(683): Control->hacerPdfReporte()
+#4 /home/biosf973/public_html/calculadora/index.php(37): Control->evaluarPost(Array, Array)
+#5 {main}
+  thrown in /home/biosf973/public_html/calculadora/clases/fpdf/fpdf.php on line 271
+[19-Jan-2020 22:20:53 America/Mexico_City] PHP Notice:  Undefined index: numero in /home/biosf973/public_html/calculadora/clases/Control.php on line 1133
+[19-Jan-2020 22:20:53 America/Mexico_City] PHP Notice:  Undefined index: numero in /home/biosf973/public_html/calculadora/clases/Control.php on line 1133
+[19-Jan-2020 23:33:26 America/Mexico_City] PHP Notice:  Undefined index: numero in /home/biosf973/public_html/calculadora/clases/Control.php on line 1133
+[19-Jan-2020 23:33:26 America/Mexico_City] PHP Notice:  Undefined index: numero in /home/biosf973/public_html/calculadora/clases/Control.php on line 1133

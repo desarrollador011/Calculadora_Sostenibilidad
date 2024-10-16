@@ -1,0 +1,29 @@
+
+// $(function () {
+//     $.get("../css/tricks.css", function (data) {
+//         var version = data.match(/for(.*)/);
+//         alert(version);
+//     });
+// });
+
+// $(window).ready(function(){
+//     resizeIframe();
+// });
+// $(window).load(function(){
+//     resizeIframe();
+// });
+
+ // resizeIframe();
+
+ del index
+
+ <!--    <script>-->
+ <!--        function resizeIframe() {-->
+ <!--            var obj = window.frameElement;-->
+ <!--            if (obj){-->
+ <!--                obj.src = "http://calculadora.biosferadesarrollos.com.mx/";-->
+ <!--            }-->
+ <!--            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';-->
+ <!--        }-->
+ <!--        resizeIframe();-->
+ <!--    </script>-->
